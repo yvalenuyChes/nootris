@@ -1,0 +1,94 @@
+.header{
+   /* height: 100vh;
+   width: 100%; */
+   background-color: #FCDA28;
+   display: flex;
+}
+
+.header .container{
+   display: flex;
+   justify-content: space-between;
+   min-width: 1190px;
+   margin: 0 auto;
+   padding: 120px 20px 0 20px;
+}
+
+.header__text{
+  position: relative;
+}
+
+.header__title{
+   font-size: 150px;
+   line-height: 160px;
+   color: white;
+   font-weight: 700;
+
+}
+
+.first-subtitle{
+   padding-top: 40px;
+   font-size: 24px;
+}
+
+.second-subtitle{
+   padding-top: 120px;
+   font-size: 36px;
+   font-weight: 700;
+}
+
+.third-subtitle{
+   padding: 20px 0px 90px 0;
+   font-size: 18px;
+}
+
+
+
+.header__images{
+   position: relative;
+   display: flex;
+   align-items: center;
+}
+
+.header__image{
+   position: absolute;
+}
+
+.nootris-image{
+   width: 225px;
+   height: 630px;
+   z-index: 2;
+   bottom: 50px;
+   left: -100px;
+}
+
+.nootris-image img{
+   height: 100%;
+   width: 100%;
+}
+
+.lemon-image{
+   z-index: 3;
+   width: 530px;
+   height: 460px;
+   bottom: -100px;
+   left: -500px;
+}
+
+.lemon-image img{
+   height: 100%;
+   width: 100%;
+}
+
+.ginger-image{
+   z-index: 1;
+   width: 495px;
+   height: 410px;
+   bottom: 100px;
+   left: -280px;
+}
+
+
+.ginger-image img{
+   height: 100%;
+   width: 100%;
+}
