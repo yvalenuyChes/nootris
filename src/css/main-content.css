@@ -82,3 +82,25 @@
    font-size: 18px;
 }
 
+
+
+@media (max-width:769px) {
+   .main__advantages{
+      flex-direction: column;
+   }
+
+   .center-image{
+      width: 80%;
+      height: 80%;
+   }
+
+   .main__advantages-item{
+      padding-top: 50px;
+   }
+}
+
+@media (max-width:360px) {
+   .main__title{
+      font-size: 28px;
+   }
+}
